@@ -13,14 +13,14 @@ int main(int argC, string argV[])
   else
   {
     int num = atoi(argV[1]);
-    int i;
+    long long i;
     printf("%i\n", num);
 
     for (i = 1; num >= 1; num--)
     {
         i = num * i;
     }
-    printf("Number: %d\n", i);
+    printf("Number: %lld\n", i);
 
   }
 
